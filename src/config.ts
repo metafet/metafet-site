@@ -73,7 +73,7 @@ export const profileConfig: ProfileConfig = {
 			// You will need to install the corresponding icon set if it's not already included
 			// `pnpm add @iconify-json/<icon-set-name>`
 			url: "https://twitter.com",
-		}
+		},
 	],
 };
 
