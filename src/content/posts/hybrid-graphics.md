@@ -5,7 +5,7 @@ description: 'Guide to reducing stutters and slugginess on nvidia hybrid graphic
 image: ''
 tags: [Guide]
 category: 'Guide'
-draft: true
+draft: false
 lang: ''
 ---
 
