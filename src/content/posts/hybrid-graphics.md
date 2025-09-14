@@ -59,7 +59,7 @@ sudo nvidia-smi -pm 1
 ```
 
 ## Disable gsp firmware
-This isnt necessary but improves performance for some people.
+This isnt necessary since nvidia fixed the bug with gsp firmware.
 Add the following line to kernel parameters:
 ```bash frame=none
 nvidia.NVreg_EnableGpuFirmware=0
