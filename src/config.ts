@@ -9,7 +9,7 @@ import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
 	title: "Metafet",
-	subtitle: "🤠",
+	subtitle: "🐶",
 	lang: "en", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
 		hue: 250, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
@@ -17,12 +17,12 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: true,
-		src: "assets/images/desolate-city.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		src: "assets/images/koishi.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: false, // Display the credit text of the banner image
-			text: "", // Credit text to be displayed
-			url: "", // (Optional) URL link to the original artwork or artist's page
+			text: "Koishi", // Credit text to be displayed
+			url: "https://files.orangc.net/media/walls-catppuccin-mocha/koishi.jpg?k=XqNH", // (Optional) URL link to the original artwork or artist's page
 		},
 	},
 	toc: {
@@ -53,14 +53,14 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/Konqi_Pixel.png", // 3658933.jpg Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	avatar: "assets/images/furimage-unknown.jpg", // 3658933.jpg Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "Metafet",
 	bio: "I study Computer science and Cybersecurity.",
 	links: [
 		{
 			name: "Matrix",
 			icon: "ph:matrix-logo-bold",
-			url: "https://matrix.to/#/@tornaci:matrix.org",
+			url: "https://matrix.to/#/@mxanew:matrix.org",
 		},
 		{
 			name: "GitHub",
@@ -68,18 +68,18 @@ export const profileConfig: ProfileConfig = {
 			url: "https://github.com/metafet",
 		},
 		{
-			name: "Twitter",
-			icon: "fa6-brands:x-twitter", // Visit https://icones.js.org/ for icon codes
+			name: "Email",
+			icon: "fa6-solid:envelope", // Visit https://icones.js.org/ for icon codes
 			// You will need to install the corresponding icon set if it's not already included
 			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://x.com/tornaci67",
+			url: "mailto:yavuzakay@autistici.org",
 		},
 	],
 };
 
 export const licenseConfig: LicenseConfig = {
-	enable: false,
-	name: "CC BY-NC-SA 4.0",
+	enable: true,
+	name: "CC BY-SA 4.0",
 	url: "https://creativecommons.org/licenses/by-nc-sa/4.0/",
 };
 

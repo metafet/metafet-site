@@ -44,9 +44,6 @@ importers:
       '@iconify-json/fa6-regular':
         specifier: ^1.2.4
         version: 1.2.4
-      '@iconify-json/fa6-solid':
-        specifier: ^1.2.4
-        version: 1.2.4
       '@iconify-json/material-symbols':
         specifier: ^1.2.34
         version: 1.2.34
@@ -147,6 +144,9 @@ importers:
       '@biomejs/biome':
         specifier: 2.2.3
         version: 2.2.3
+      '@iconify-json/fa6-solid':
+        specifier: ^1.2.4
+        version: 1.2.4
       '@iconify-json/ph':
         specifier: ^1.2.2
         version: 1.2.2

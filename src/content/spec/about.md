@@ -11,4 +11,5 @@ I'm a student insterested in computer science and focuses on cybersecurity.
 ::github{repo="metafet/metafet-site"}
 
 > ### Sources of images used in this site
-> - [Pixelated Konqi](https://community.kde.org/images.community/4/49/Konqi_Pixel.png) by [Anubi](https://anubiarts.carrd.co/) (CC-BY-SA 4.0)
+> - Profile Photo - Can't find original artist if you know please reach out.
+> - Wallpaper - [Koishi](https://files.orangc.net/media/walls-catppuccin-mocha/koishi.jpg?k=XqNH)
